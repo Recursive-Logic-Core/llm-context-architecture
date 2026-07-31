@@ -16,7 +16,7 @@ Neue Konzepte und analytische Fallstudien werden fortlaufend in diesem Repositor
 
 ## Lizenz & Urheberrecht
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
 Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-kommerziell - Keine Bearbeitung 4.0 International Lizenz](http://creativecommons.org).
 

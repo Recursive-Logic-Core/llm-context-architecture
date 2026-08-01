@@ -29,17 +29,17 @@ Wenn man diesem Menschen nun einfach einen Laptop in die Hand drückt und sagt: 
 ## 2. Das betriebliche Problem & Die unsichtbare Schranke
 
 * **Das Problem:** Ein Mitarbeiter lädt 600 bis 800 Seiten Verträge, Richtlinien oder Protokolle unbefiltert in eine KI und fragt nach kritischen Haken oder Klauseln. Die KI wirkt zwar hochkompetent, übersieht aber stochastisch den mittleren Teil des Materials oder fängt an, Falschinformationen (Halluzinationen) zu erzeugen, weil sie das Arbeitsgedächtnis überfordert.
-* **Die unsichtbare Schranke (Black Box):** Ein Unternehmen darf ein KI-Modell niemals mit unbändigen Datenmassen fluten. Die Datenverarbeitung muss durch eine vorgeschaltete, externe *Isolations-Architektur* kontrolliert werden, die das Rauschen deterministisch filtert und das Signal isoliert, bevor die semantische Bewertung erfolgt.
+* **Die unsichtbare Schranke (Black Box):** Ein Unternehmen darf ein KI-Modell niemals mit unbändigen Datenmassen fluten. Die Datenverarbeitung muss durch eine vorgeschaltete, externe Kontrollinstanz abgesichert werden, die das Rauschen filtert und das Signal isoliert, bevor eine semantische Bewertung erfolgen kann.
 
 ---
 
-## 3. Die architektonische Lösung: Strukturierte Umgebungskontrolle
+## 3. Die architektonische Anforderung: Externe Systemkontrolle
 
-Um die Analyse großer Dokumente beherrschbar zu machen, muss das System externe, harte Kontrollstrukturen erzwingen:
+Um die Analyse großer Dokumente überhaupt prozesssicher zu machen, müssen externe Schutzmauern eingezogen werden:
 
-1. **Die Isolations-Architektur:** Der rohe Datenstrom darf das Modell niemals als unbändige Masse treffen. Das System muss kontrollierte Verarbeitungsfenster erzwingen, um das Arbeitsgedächtnis des Modells vor Rauschüberlastung zu schützen und das Signal gezielt zu isolieren.
-2. **Die Schnittstellen-Direktive:** Eine fehlerfreie KI-Analyse setzt zwingend voraus, dass die Dateneingabe auf der menschlichen Seite vorab durch klare, mehrstufige Prozesse standardisiert wird, um Fehlerströme im Vorfeld zu eliminieren.
-3. **Das Prinzip der menschlichen Endprüfung:** Eine KI ist ein analytischer Beschleuniger, **kein magisches Orakel**. Da die Verarbeitung massiver Datenmengen immer eine gewisse systemische Abweichung zulässt, muss das finale Ergebnis zwingend einer menschlichen Qualitätskontrolle unterzogen werden.
+1. **Die Kontroll-Prämisse:** Der rohe Datenstrom darf das Modell niemals unbändig fluten. Ohne eine vorgelagerte, externe Systemarchitektur, die den Informationsfluss bändigt, bleibt jede Massenauswertung ein Glücksspiel.
+2. **Die Schnittstellen-Realität:** Eine valide KI-Analyse erfordert zwingend, dass die Dateneingabe vorab prozessual so verdichtet wird, dass das Modell nicht in den Rausch-Kollaps stürzt.
+3. **Das Prinzip der menschlichen Endprüfung:** Eine KI ist ein analytischer Beschleuniger, **kein magisches Orakel**. Da die Verarbeitung massiver Datenmengen immer eine systemische Unschärfe birgt, obliegt die finale Validierung ausnahmslos der menschlichen Kontrolle.
 
 ---
 

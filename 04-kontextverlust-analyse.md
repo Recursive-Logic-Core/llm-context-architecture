@@ -39,7 +39,7 @@ Um den ständigen Gedächtnisverlust und das damit verbundene sprachliche Auswei
 
 1. **Die Kontroll-Prämisse:** Das System darf niemals in einen zustandslosen Raum entlassen werden; der operationelle Kontext muss extern und lückenlos aufrechterhalten werden.
 2. **Die Leitfaden-Prüfung:** Vor jeder Interaktion muss sichergestellt sein, dass dem Modell die spezifischen Parameter, Regeln und Arbeitsstände des Hauses verlustfrei zur Verfügung stehen.
-3. **Das Prinzip der menschlichen Endprüfung:** Da kein System ohne die initiale und kontinuierliche Führung des Architekten operieren kann, obliegt die Steuerung und Freigabe des Rahmens ausnahmslos der menschlichen Kontrolle.
+3. **Das Prinzip der menschlichen Endprüfung:** Da kein System ohne die initiale und kontinuierliche Führung durch den Anwender operieren kann, obliegt die Steuerung und Freigabe des Rahmens ausnahmslos der menschlichen Kontrolle.
 
 ---
 

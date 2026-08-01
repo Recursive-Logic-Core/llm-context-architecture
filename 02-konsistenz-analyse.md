@@ -1,34 +1,36 @@
 ---
-title: "Die stochastische Drift: Systemische Prävention von Konsistenzbrüchen und dem 'Berater-ohne-Notizbuch'-Dilemma bei LLM-Folgeabfragen"
+title: "Widersprüchliche Einzelantworten: Systemische Prävention von stochastischer Drift und dem 'Berater-ohne-Notizbuch'-Dilemma"
 author: "Recursive-Logic-Core"
 date: "2026-08-01"
 tags: ["ki-architecture", "llm-optimization", "consistency-control", "state-management", "methodology"]
 status: "Konzeptionelle Architektur"
 ---
 
-# Die stochastische Drift: Systemische Prävention von Konsistenzbrüchen und dem 'Berater-ohne-Notizbuch'-Dilemma bei LLM-Folgeabfragen
+# Widersprüchliche Einzelantworten: Systemische Prävention von stochastischer Drift und dem 'Berater-ohne-Notizbuch'-Dilemma
 
-> **Abstract:** Large Language Models agieren von Natur aus zustandslos und stochastisch. Ohne externe Verankerung variieren Antworten auf identische Fragestellungen über die Zeit, was zu unkalkulierbaren Konsistenzbrüchen führt. Dieses Dokument skizziert ein konzeptionelles Framework, um den Systemzustand deterministisch abzusichern und verlässliche Prozesssteuerungen zu erzwingen.
+> **Abstract:** Large Language Models agieren von Natur aus zustandslos und stochastisch. Ohne externe Verankerung variieren Antworten auf ein und dieselbe spezifische Frage über die Zeit, was zu unkalkulierbaren Konsistenzbrüchen führt. Es geht hier nicht um den Verlust des gesamten Projektwissens, sondern um die Instabilität punktueller Regelauskünfte. Dieses Dokument skizziert ein konzeptionelles Framework, um den Systemzustand deterministisch abzusichern.
 
 ---
 
 ## 1. Das Kernproblem: Die Analogie mit dem Berater ohne Notizbuch
 
-Moderne LLMs liefern oft auf einzelne Abfragen brillante Analysen, aber sie besitzen im reinen Basis-Modus kein persistentes Arbeitsgedächtnis über den Dialogverlauf hinweg. 
+Moderne LLMs liefern oft auf einzelne Abfragen brillante Analysen, aber sie besitzen im reinen Basis-Modus kein Invarianz-Gedächtnis für Punktfragen.
 
 Um diese Limitation zu visualisieren:
 * Stellen Sie sich einen brillanten Unternehmensberater vor, den Sie für Ihr Haus engagieren.
-* Am Montag fragen Sie ihn nach den betrieblichen Kernregeln. Er analysiert die Lage messerscharf und definiert einen festen Standard.
-* Am Mittwoch stellen Sie ihm exakt dieselbe Frage. Er antwortet mit derselben Überzeugung, zieht aber plötzlich andere Parameter heran und kommt zu einem völlig anderen Ergebnis (da er sich auf einen anderen Teil des gesamten Regelwerks bezieht).
-* Am Freitag variiert die Aussage erneut je nach aktueller Gewichtung des Dialogs.
+* Am Montag fragen Sie ihn nach einer **ganz spezifischen betrieblichen Einzelregel** (z. B. der Urlaubsregelung). Er analysiert die Lage messerscharf und sagt: *"Exakt 30 Tage."*
+* Am Mittwoch stellen Sie ihm **exakt dieselbe Frage erneut**. Er antwortet mit derselben Überzeugung, zieht aber plötzlich andere Parameter heran und behauptet: *"Erst nach der Probezeit, also 0 Tage."* (da er sich auf einen anderen Teil des Regelwerks bezieht).
+* Am Freitag variiert die Antwort auf dieselbe Frage erneut je nach Zufallsgewichtung.
 
-Der Berater ist nicht grundsätzlich inkompetent, aber er führt kein verbindliches Protokoll und vergisst von Interaktion zu Interaktion, welche systemische Entscheidung am Vortag getroffen wurde. Ein Betrieb kann auf dieser Basis keine verlässlichen Abläufe steuern, weil die Gültigkeit einer Antwort unkontrolliert vom Zeitpunkt der Abfrage abhängt.
+> **Systemische Abgrenzung:** Im Unterschied zum vollständigen Verlust des gesamten Arbeits- und Abteilungs-Kontexts (siehe separates Dokument 04) geht es hier ausschließlich um die stochastische Instabilität und Drift einzelner, wiederholter Aussagen.
+
+Der Berater ist nicht grundsätzlich inkompetent, aber er führt kein verbindliches Protokoll und vergisst von Interaktion zu Interaktion, welche punktuelle Festlegung am Vortag getroffen wurde. Ein Betrieb kann auf dieser Basis keine verlässlichen Prozesse steuern, weil die Gültigkeit einer Antwort unkontrolliert vom Zeitpunkt der Abfrage abhängt.
 
 ---
 
 ## 2. Das betriebliche Problem & Die unsichtbare Schranke
 
-* **Das Problem:** Unverankerte KIs geben bei wiederholten Anfragen oder in längeren Projekten unterschiedliche Antworten, weil sie frühere Arbeitsstände nicht als feste Wahrheit festhalten, sondern probabilistisch neu berechnen. Dies führt zu unbemerkten Logikbrüchen in der Dokumentation.
+* **Das Problem:** Unverankerte KIs geben bei wiederholten, identischen Punktfragen unterschiedliche Antworten, weil sie frühere Arbeitsstände nicht als feste Wahrheit festhalten, sondern probabilistisch neu berechnen. Dies führt zu unbemerkten Logikbrüchen in der Unternehmensdokumentation.
 * **Die unsichtbare Schranke (Black Box):** Ein Unternehmen darf KI nicht ohne Gedächtnis-Anker agieren lassen. Das System muss durch eine externe Kontroll-Schicht gezwungen werden, frühere Arbeitsstände fest im Gedächtnis zu verankern und abzugleichen, bevor eine Antwort das Haus verlässt.
 
 ---

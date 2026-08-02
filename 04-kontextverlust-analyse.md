@@ -12,7 +12,7 @@ status: "Konzeptionelle Architektur"
 
 ---
 
-## 1. Das Kernproblem: Die Analogie mit dem Genie im "Murmeltier-Film"
+## 1. Das Kernproblem: Die Analogie mit dem Genie im "Zeitschleifenproblem"
 
 Moderne KI-Systeme verfügen über ein enormes analytisches Potenzial, verfallen jedoch ohne strukturierte Führung bei jeder neuen Sitzung in einen totalen Initialisierungs-Reset.
 
@@ -20,7 +20,7 @@ Um diese Limitation zu visualisieren:
 * Stellen Sie sich ein hochausgebildetes Genie vor, das als Experte in Ihrer Fachabteilung eingesetzt wird. Er besitzt einen phänomenalen IQ und durchdringt jede Aufgabe in Sekundenschnelle.
 * Nun passiert das Unvermeidliche: **Jeden Morgen um 08:00 Uhr erleidet dieser Experte den 'Täglich grüßt das Murmeltier'-Effekt.**
 * Das gesamte Team kennt ihn seit Wochen – aber er wacht jeden Tag neu auf und weiß absolut nichts mehr von den Abteilungsregeln, den Kundenhistorien oder den Beschlüssen der Vortage.
-* Wenn man ihm nicht das gesamte Fundament neu erklärt, fängt er an zu "schwurbeln" und erfindet allgemeine, unbrauchbare Floskeln, um seine Ahnungslosigkeit bezüglich Ihres spezifischen Hauses zu kaschieren.
+* Wenn man ihm nicht das gesamte Fundament neu erklärt, fängt er an "Phrasen zu dreschen" und erfindet allgemeine, unbrauchbare Floskeln, um seine Ahnungslosigkeit bezüglich Ihres spezifischen Hauses zu kaschieren.
 
 > **Systemische Abgrenzung:** Im Unterschied zu widersprüchlichen Antworten auf einzelne Fragen (siehe separates Dokument 02) geht es hier um den vollständigen Verlust des gesamten Arbeits-, Abteilungs- und Regelkontexts zwischen den Sitzungen.
 

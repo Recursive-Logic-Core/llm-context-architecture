@@ -12,19 +12,17 @@ status: "Konzeptionelle Architektur"
 
 ---
 
-## 1. Das Kernproblem: Die Analogie mit dem Genie im "Zeitschleifenproblem"
+## 1. Das Kernproblem: Die Analogie mit dem Experten im wachsenden Projekt
 
-Moderne KI-Systeme verfügen über ein enormes analytisches Potenzial, verfallen jedoch ohne strukturierte Führung bei jeder neuen Sitzung in einen totalen Initialisierungs-Reset.
+Moderne KI-Systeme verfügen über ein enormes analytisches Potenzial, stoßen jedoch bei massiven Text- und Dialogströmen an eine fundamentale physikalische Grenze ihres Arbeitsgedächtnisses.
 
 Um diese Limitation zu visualisieren:
-* Stellen Sie sich ein hochausgebildetes Genie vor, das als Experte in Ihrer Fachabteilung eingesetzt wird. Er besitzt einen phänomenalen IQ und durchdringt jede Aufgabe in Sekundenschnelle.
-* Nun passiert das Unvermeidliche: **Jeden Morgen um 08:00 Uhr erleidet dieser Experte den 'Täglich grüßt das Murmeltier'-Effekt.**
-* Das gesamte Team kennt ihn seit Wochen – aber er wacht jeden Tag neu auf und weiß absolut nichts mehr von den Abteilungsregeln, den Kundenhistorien oder den Beschlüssen der Vortage.
-* Wenn man ihm nicht das gesamte Fundament neu erklärt, fängt er an "Phrasen zu dreschen" und erfindet allgemeine, unbrauchbare Floskeln, um seine Ahnungslosigkeit bezüglich Ihres spezifischen Hauses zu kaschieren.
+* Stellen Sie sich einen hochbegabten Experten vor, der in Ihrer Fachabteilung an einem großen Projekt arbeitet. Er ist extrem intelligent, arbeitet den ganzen Tag konzentriert mit Ihnen durch und nimmt Unmengen an Informationen auf.
+* Aber je länger die Woche dauert und je mehr Details, Protokolle und Absprachen dazukommen, desto mehr stößt sein Kurzzeitgedächtnis an seine absolute Kapazitätsgrenze.
+* Nach einigen Tagen passiert das Unvermeidliche: Weil der Strang zu lang geworden ist, verliert er den Anfang aus den Augen. Er weiß plötzlich nicht mehr, wer am ersten Tag was gesagt hat oder welche grundlegenden Regeln zu Beginn der Woche beschlossen wurden.
+* Je länger man mit ihm weiterarbeitet, ohne das Fundament zu sichern, desto mehr fängt er an zu "spinnen", verliert den roten Faden völlig oder wiederholt unreflektiert nur noch das, was man ihm im letzten Satz vorgekaut hat, weil die Basis einfach weg ist.
 
-> **Systemische Abgrenzung:** Im Unterschied zu widersprüchlichen Antworten auf einzelne Fragen (siehe separates Dokument 02) geht es hier um den vollständigen Verlust des gesamten Arbeits-, Abteilungs- und Regelkontexts zwischen den Sitzungen.
-
-Ihm fehlt nicht die Intelligenz, sondern die dauerhafte Verankerung des roten Fadens. Wenn man einem hochintelligenten System bei kontinuierlichen Geschäftsprozessen nicht permanent die Kontinuität sichert, verliert es den Betriebskontext vollständig.
+Ihm fehlen nicht die intellektuellen Fähigkeiten, sondern die dauerhafte Verankerung des roten Fadens. Wenn man einem hochintelligenten System bei langen Prozessen nicht permanent die Kontinuität und Struktur sichert, verliert es die Orientierung und erzeugt mangels Basis inhaltslose Worthülsen.
 
 ---
 

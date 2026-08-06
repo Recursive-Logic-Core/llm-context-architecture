@@ -8,7 +8,7 @@ status: "Konzeptionelle Architektur"
 
 # Der tägliche Reset: Systemische Prävention des vollständigen Kontextverlusts und erzwungener Worthülsen bei LLM-Folgesitzungen
 
-> **Abstract:** Large Language Models besitzen enorme Rechenkapazitäten, operieren jedoch standardmäßig zustandslos. Im Gegensatz zu Punktfaktoren geht es hier um den kompletten Verlust des Betriebskontexts: Die KI weiß bei einer neuen Sitzung nicht mehr, wer der Kunde ist, welche Abteilungsregeln gelten und was bisher erarbeitet wurde – und weicht mangels Datenbasis in generische Worthülsen ab. Dieses Dokument skizziert ein konzeptionelles Framework für lückenlose Kontext-Führung.
+> **Abstract:** Large Language Models besitzen enorme Rechenkapazitäten, operieren jedoch standardmäßig zustandslos. Im Gegensatz zu Punktfragen geht es hier um den kompletten Verlust des Betriebskontexts: Die KI weiß bei einer neuen Sitzung nicht mehr, wer der Kunde ist, welche Abteilungsregeln gelten und was bisher erarbeitet wurde – und weicht mangels Datenbasis in generische Worthülsen ab. Dieses Dokument skizziert ein konzeptionelles Framework für lückenlose Kontext-Führung.
 
 ---
 

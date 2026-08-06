@@ -17,7 +17,7 @@ status: "Konzeptionelle Architektur"
 Moderne LLMs liefern oft auf einzelne Abfragen brillante Analysen, aber sie besitzen im reinen Basis-Modus kein Invarianz-Gedächtnis für Punktfragen.
 
 Um diese Limitation zu visualisieren:
-* Stellen Sie sich einen brillanten Unternehmensberater vor, den Sie für Ihr Haus engagieren.
+* Stellen Sie sich einen brillanten Unternehmensberater vor, den Sie für Ihr Unternehmen engagieren.
 * Am Montag fragen Sie ihn nach einer **ganz spezifischen betrieblichen Einzelregel** (z. B. der Urlaubsregelung). Er analysiert die Lage messerscharf und sagt: *"Exakt 30 Tage."*
 * Am Mittwoch stellen Sie ihm **exakt dieselbe Frage erneut**. Er antwortet mit derselben Überzeugung, zieht aber plötzlich andere Parameter heran und behauptet: *"Erst nach der Probezeit, also 0 Tage."* (da er sich auf einen anderen Teil des Regelwerks bezieht).
 * Am Freitag variiert die Antwort auf dieselbe Frage erneut je nach Zufallsgewichtung.
@@ -40,7 +40,7 @@ Der Berater ist nicht grundsätzlich inkompetent, aber er führt kein verbindlic
 Um die Konsistenz über den gesamten Projektverlauf zu garantieren, müssen harte Schnittstellen greifen:
 
 1. **Die Kontroll-Prämisse:** Jede logische Kernentscheidung muss aus dem flüchtigen Kontextstrom herausgelöst und durch externe Schutzinstanzen abgesichert werden, um stochastische Drift zu verhindern.
-2. **Die Konsistenz-Prüfung:** Vor der Ausgabe jeder Folgereise muss ein automatisierter Abgleich gegen bereits fixierte Parameter erfolgen, um interne Widersprüche im Keim zu ersticken.
+2. **Die Konsistenz-Prüfung:** Vor der Ausgabe jeder Folgeabfrage muss ein automatisierter Abgleich gegen bereits fixierte Parameter erfolgen, um interne Widersprüche im Keim zu ersticken.
 3. **Das Prinzip der menschlichen Validierung:** Da die Gewichtung von Parametern variieren kann, obliegt die finale Freigabe der Systemzustände zwingend der menschlichen Instanz als absolutem Referenzpunkt.
 
 ---

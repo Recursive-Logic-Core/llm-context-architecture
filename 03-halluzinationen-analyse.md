@@ -12,12 +12,12 @@ status: "Konzeptionelle Architektur"
 
 ---
 
-## 1. Das Kernproblem: Die Analogie mit dem Detaillese-Täuscher vor Gericht
+## 1. Das Kernproblem: Die Analogie mit dem Detail-Täuscher vor Gericht
 
 Moderne LLMs generieren Ausgaben auf Basis statistischer Wahrscheinlichkeiten, was dazu führt, dass frei erfundene Sachverhalte exakt denselben Tonfall absoluter Überzeugung tragen wie verifizierte Fakten.
 
 Um diese Limitation zu visualisieren:
-* Stellen Sie sich einen Zeugen vor Gericht vor, der den Vorfall in atemberaubender, fehlerfreier Detailtiefe beschreibt – exakt so, als hätte er es gesehen: „Der Täter hat das 17. Dokument aus der 2. Reihe mit der linken Hand im genauen Winkel von 45 Grad herausgezogen und kurz darauf genießt.“
+* Stellen Sie sich einen Zeugen vor Gericht vor, der den Vorfall in atemberaubender, fehlerfreier Detailtiefe beschreibt – exakt so, als hätte er es gesehen: „Der Täter hat das 17. Dokument aus der 2. Reihe mit der linken Hand im genauen Winkel von 45 Grad herausgezogen und kurz darauf geniest.“
 * Das Gericht ist zutiefst beeindruckt von dieser enormen, scheinbar unumstößlichen Präzision.
 * Der Richter fragt kritisch nach: „Das ist extrem spezifisch. Auf welcher exakten Seite der zugrundeliegenden Ermittlungsakten ist diese Szene dokumentiert?“
 * Der Zeuge antwortet völlig gelassen und selbstbewusst: „Irgendwo in Ihren ganzen Beweisordnern werden Sie das mit Sicherheit finden – suchen Sie ruhig nach.“
@@ -29,7 +29,7 @@ Die Behauptung klang so perfekt, dass ein unvorbereiteter Beobachter sie sofort 
 ## 2. Das betriebliche Problem & Die unsichtbare Schranke
 
 * **Das Problem:** KIs formulieren Falschinformationen mit absoluter, rhetorischer Perfektion. Mitarbeiter und Fachabteilungen lassen sich von dieser künstlichen Selbstsicherheit täuschen und übernehmen ungeprüfte Behauptungen unkritisch in geschäftskritische Dokumente.
-* **Die unsichtbare Schranke (Black Box):** Eine KI darf im geschäftlichen oder rechtlichen Kontext niemals ungefiltert Empfehlungen aussprechen, deren Belege nicht vorab hart und nachweisbar isoliert wurden. Erst wenn das fundamentale Datenfundament steht, darf eine Bewertung erfolgen.
+* **Die unsichtbare Schranke (Black Box):** Eine KI darf im geschäftlichen oder rechtlichen Kontext niemals ungefiltert Empfehlungen aussprechen, deren Belege nicht vorab hart und nachweisbar isoliert wurden. Erst wenn das solide Datenfundament steht, darf eine Bewertung erfolgen.
 
 ---
 

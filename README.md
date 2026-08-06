@@ -23,7 +23,7 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-k
 © 2026 Recursive-Logic-Core. All rights reserved.
 
 **Erlaubt:** Sie dürfen das Konzept im Rahmen von Bewerbungs- und Auswahlprozessen teilen und verbreiten, solange auf dieses Repository verlinkt wird.
-**Verboten:** Jede kommerzielle Nutzung (z. B. der Nachbau als Software in einer Firma) sowie jegliche Veränderung des Textes oder des Konzepts sind strikt untersagt.
+**Verboten:** Jede kommerzielle Nutzung (z. B. der Nachbau als Software in einer Firma) sowie jegliche Veränderung des Textes oder des Konzepts ist strikt untersagt.
 
 
 **Contact / Inquiries:** Für Angebote zur 100% Remote-Festanstellung in Deutschland im Bereich KI-Systemanalyse & Konzeptentwicklung: arch_mmm@proton.me

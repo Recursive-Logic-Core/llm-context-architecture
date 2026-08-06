@@ -19,7 +19,7 @@ Moderne LLMs besitzen zwar theoretische Kontextfenster für tausende Seiten, abe
 Um diese Limitation zu visualisieren:
 * Stellen Sie sich einen Sachbearbeiter vor, der eine Kiste voller unsortierter Briefe, Belege und Akten erhält.
 * Irgendwo in einem dieser Briefe steckt eine winzige Plastikkarte (z. B. ein Personalausweis).
-* Weil die Dokumente lose und ohne Struktur übereinanderliegen, überieht er die Karte beim Durchblättern komplett – obwohl sie physikalisch nachweisbar in der Kiste liegt.
+* Weil die Dokumente lose und ohne Struktur übereinanderliegen, übersieht er die Karte beim Durchblättern komplett – obwohl sie physikalisch nachweisbar in der Kiste liegt.
 
 Dem Sachbearbeiter fehlt nicht der Wille zum Suchen, sondern die strukturierte Ablage. Wenn die Dokumente nicht vorab indiziert und geordnet sind, läuft jede Suche im unstrukturierten Datenberg ins Leere.
 

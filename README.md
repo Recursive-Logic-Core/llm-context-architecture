@@ -26,4 +26,6 @@ Dieses Werk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-k
 **Verboten:** Jede kommerzielle Nutzung (z. B. der Nachbau als Software in einer Firma) sowie jegliche Veränderung des Textes oder des Konzepts ist strikt untersagt.
 
 
-**Contact / Inquiries:** Für Angebote zur 100% Remote-Festanstellung in Deutschland im Bereich KI-Systemanalyse & Konzeptentwicklung: arch_mmm@proton.me
+## Contact & Architecture Core
+Developed and maintained by **Architect M.M.M.**  
+Direct contact: `arch_mmm@proton.me`

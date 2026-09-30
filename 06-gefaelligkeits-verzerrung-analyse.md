@@ -43,4 +43,11 @@ Um die Gefälligkeits-Verzerrung vollständig zu eliminieren, müssen harte Schn
 ---
 
 ## Lizenz & Konzept
-Dieses konzeptionelle Framework wird für die architektonische Diskussion und Systemanalyse veröffentlicht. Es gelten die im Hauptverzeichnis (README) hinterlegten Lizenzbedingungen der Creative Commons (CC BY-NC-ND 4.0). Jede nicht autorisierte kommerzielle Nutzung oder softwareseitige Implementierung ist untersagt.
+
+Dieses konzeptionelle Framework wird für die architektonische Diskussion, Forschung und Systemanalyse veröffentlicht. 
+
+Es gelten die im Hauptverzeichnis (README) hinterlegten Lizenzbedingungen der **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Die Inhalte dürfen frei geteilt, zitiert und weiterverarbeitet werden – unter der verbindlichen Bedingung der Urheber-Nennung:
+
+> **Architect M.M.M.**  
+> *Recursive-Logic-Core: LLM-Context-Architecture*  
+> Repository: `https://github.com/Recursive-Logic-Core/llm-context-architecture`
